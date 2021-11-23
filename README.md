@@ -13,13 +13,13 @@ In this approach we tried to reduce data imbalance with the help of SMOTE analys
 <ol>
 <li>Logistic Regression </li>
 <li>Decison Trees</li>
-<li>Random Forests<li>
+<li>Random Forests</li>
 </ol>
   
 # Unsupervised approach for fraud detection:-
 Anomaly detection is the process of identifying unexpected items or events in data sets, which differ from the norm. And anomaly detection is often applied on unlabeled data which is known as unsupervised anomaly detection. Anomaly detection has two basic assumptions: 
 <li>Anomalies only occur very rarely in the data.<br/>
-<li>Their features differ from the normal instances significantly.<br/>
+<li>Their features differ from the normal instances significantly.<br/><br/>
 In this approach we adopted to anamoly detection techniques and tried three different models on the dataset -
  <ol>
  <li>Local Outlier Factor</li>
