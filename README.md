@@ -17,9 +17,19 @@ In this approach we tried to reduce data imbalance with the help of SMOTE analys
 # Unsupervised approach for fraud detection:-
 Anomaly detection is the process of identifying unexpected items or events in data sets, which differ from the norm. And anomaly detection is often applied on unlabeled data which is known as unsupervised anomaly detection. Anomaly detection has two basic assumptions: 
 <li>Anomalies only occur very rarely in the data.<br/>
-<li>Their features differ from the normal instances significantly.
+<li>Their features differ from the normal instances significantly.<br/>
 In this approach we adopted to anamoly detection techniques and tried three different models on the dataset -<br/>
 1.Local Outlier Factor<br/>
 2.Isolation Forests<br/>
-3.One class SVM<br/>
+3.One class SVM
+  
+# Adversial attack on credit card dataset:-
+  
+An adversarial attack is a method to generate adversarial examples. Hence, an adversarial example is an input to a machine learning model that is purposely designed to cause a model to make a mistake in its predictions despite resembling a valid input to a human.
+Mostly this attack is done on image recognition, where modifications are performed on images that cause a classifier to produce incorrect predictions.<br/>
+Here we tried this adversial sampling on credicard dataset to fool the machin learning algorithm to make wrong predictions and make the model predict fraud data as normal which in real time would be a threat to the users<br/>
+We applied the Fast Gradient Sign Method (FGSM). FGSM is to add the noise (not random noise) whose direction is the same as the gradient of the cost function with respect to the data. The noise is scaled by epsilon, which is usually constrained to be a small number via max norm. The magnitude of gradient does not matter in this formula, but the direction (+/-) does.
+
+
+  
 
